@@ -16,9 +16,9 @@ describe('NavBar', () => {
     wrapper = shallow(<NavBar />);
   })
 
-  it('wraps content in a div with .navbar class', () => {
-    expect(wrapper.find('.navbar').length).to.equal(1);
-  })
+  // it('wraps content in a div with .navbar class', () => {
+  //   expect(wrapper.find('.navbar').length).to.equal(1);
+  // })
 
   describe('navlinks', () => {
 
